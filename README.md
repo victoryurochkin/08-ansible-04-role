@@ -360,6 +360,7 @@ Accept-Ranges: bytes
 
 <img width="2307" height="732" alt="image" src="https://github.com/user-attachments/assets/10b0584b-6f94-48c5-9013-b956f7b9aa0a" />
 
+<img width="3071" height="798" alt="image" src="https://github.com/user-attachments/assets/54a3ff1e-5e85-4630-93d5-3119ef5a11b5" />
 
 ## Итог
 
