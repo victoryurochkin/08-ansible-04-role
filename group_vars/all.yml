@@ -1,0 +1,13 @@
+---
+clickhouse_version: "22.3.3.44"
+clickhouse_packages:
+  - clickhouse-client
+  - clickhouse-server
+  - clickhouse-common-static
+
+vector_clickhouse_endpoint: "http://localhost:8123"
+vector_clickhouse_database: "logs"
+vector_clickhouse_table: "vector_logs"
+
+lighthouse_listen_port: 80
+lighthouse_server_name: "_"

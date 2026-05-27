@@ -1,0 +1,14 @@
+server {
+    listen {{ lighthouse_listen_port }};
+    server_name {{ lighthouse_server_name }};
+
+    root {{ lighthouse_dest }};
+    index index.html;
+
+    access_log /var/log/nginx/lighthouse_access.log;
+    error_log /var/log/nginx/lighthouse_error.log;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}

@@ -1,0 +1,15 @@
+sources:
+  demo_logs:
+    type: demo_logs
+    format: syslog
+    interval: 1
+
+sinks:
+  clickhouse:
+    type: clickhouse
+    inputs:
+      - demo_logs
+    endpoint: "{{ vector_clickhouse_endpoint }}"
+    database: "{{ vector_clickhouse_database }}"
+    table: "{{ vector_clickhouse_table }}"
+    skip_unknown_fields: true
